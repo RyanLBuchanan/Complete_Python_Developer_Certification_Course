@@ -23,44 +23,46 @@ word = "Cool"
 
 
 # Your code below:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+result = chars[:3] + word + chars[3:]
+print("Hard code solution:", result)
+print(type(result))
 
 # Solution Below:
-# size = len(chars)
-# idx = int(size/2) # dividing results in a float datatype.
-# print(chars[:idx] + word + chars[idx:])
+size = len(chars)
+idx = int(size/2) # dividing results in a float datatype.
+print("Imtiaz solution:", chars[:idx] + word + chars[idx:])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
