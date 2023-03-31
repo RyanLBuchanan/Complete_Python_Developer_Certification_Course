@@ -20,18 +20,23 @@
 #
 # print(data_type)
 
-num1 = 3
-
-num2 = 10
+# num1 = 3
+#
+# num2 = 10
 
 # Modulus to get remainder
-modulus_answer = num2 % num1
-
-print(modulus_answer)
+# modulus_answer = num2 % num1
+#
+# print(modulus_answer)
 
 # Order of operations (O_o_O)
-O_o_O_answer = (10 + 3) * (9 - 4)
+# O_o_O_answer = (10 + 3) * (9 - 4)
+#
+# print(O_o_O_answer)
+#
+# print("Hello World!")
 
-print(O_o_O_answer)
+my_list = [1, 2, 3, 4, 5]
 
-print("Hello World!")
+print("my_list is the data type: ", type(my_list))
+print("my_list contains: ", my_list)
